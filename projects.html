@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My favorite songs • Opinion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">About<span>Me</span></a>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" aria-current="page"> Favorite songs</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-header">
+      <h1>My favorite songs</h1>
+      <p></p>
+    </section>
+
+    <section class="grid">
+      <article class="project">
+        <img src="5.png" alt="Consume">
+        <div class="project-body">
+          <h2>Consume</h2>
+          <p>She said careful or you'll lose it,
+But girl I'm only human,
+And I know there's a blade where your heart is,
+And you know how to use it,</p>
+          <a class="button" href="https://www.youtube.com/watch?v=oCdXuomafSU" aria-label="Click Me">Click</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <img src="4.png" alt="Animals">
+        <div class="project-body">
+          <h2>Animals</h2>
+          <p>Baby, I'm preyin' on you tonight
+Hunt you down, eat you alive
+Just like animals, animals
+Like animals-mals
+Maybe you think that you can hide
+I can smell your scent for miles
+Just like animals, animals
+Like animals-mals
+Baby, I'm (Hey)</p>
+          <a class="button" href="https://www.youtube.com/watch?v=qpgTC9MDx1o" aria-label="Click Me">Click</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="note">
+      <h3>Note</h3>
+      <p>These two songs are my favorite.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name — All rights reserved.</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
